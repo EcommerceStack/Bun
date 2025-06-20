@@ -4,6 +4,8 @@ import figlet from "figlet";
 console.log("Hello via Bun!");
 
 
+console.log(Bun.version)
+
 const server = Bun.serve({
   port: 3000,
   fetch(req) {

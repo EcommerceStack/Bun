@@ -1,19 +1,17 @@
 {
-  "name": "01-firstapp",
+  "name": "02-bun-graphql",
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "scripts": {
-    "start": "bun run index.ts"
-  },
   "devDependencies": {
-    "@types/bun": "^1.2.16",
-    "@types/figlet": "^1.7.0"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "figlet": "^1.8.1"
+    "@graphql-tools/schema": "^10.0.23",
+    "@graphql-yoga/common": "^3.9.1",
+    "graphql": "^16.11.0"
   }
 }
